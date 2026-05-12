@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="https://jakarta.ee/xml/ns/jakartaee"
+	xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+	id="WebApp_ID" version="5.0">
+	
+	<!--Servlet 1-->
+	<servlet>
+		<servlet-name>MyServletInterface</servlet-name>
+		<servlet-class>com.Myservlet.MyServletInterface</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MyServletInterface</servlet-name>
+		<url-pattern>/ankit</url-pattern>
+	</servlet-mapping>
+	
+	<!-- Sevlet2 -->
+	<servlet>
+		<servlet-name>MyGenericServletExample</servlet-name>
+		<servlet-class>com.Myservlet.MyGenericServletExample</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MyGenericServletExample</servlet-name>
+		<url-pattern>/anu</url-pattern>
+	</servlet-mapping>
+	
+	<!-- Sevlet2 -->
+	<servlet>
+		<servlet-name>MyHttpServletExample</servlet-name>
+		<servlet-class>com.Myservlet.MyHttpServletExample</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MyHttpServletExample</servlet-name>
+		<url-pattern>/balaji</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+</web-app>
